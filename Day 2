@@ -1,0 +1,36 @@
+#problem 1
+n=int(input())
+if n%2==0:
+    print("even")
+else:
+    print("odd")    
+#problem 2
+a=int(input())
+b=int(input())
+if a>b:
+    x=a-b
+    print(x)
+else:
+    y=a+b
+    print(y)
+#problem 3
+x=int(input())
+y=int(input())
+z=int(input())
+if x>0:
+    k=x*y
+else:
+    k=x-y
+if z%2==0:
+    r=k+z
+else:
+    r=z-k
+if r<0:
+    r=abs(r)
+    print(r)
+else:
+    print(r)   
+#problem 4
+n=int(input())
+a=abs(n)
+print(a)
