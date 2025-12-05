@@ -1,0 +1,4 @@
+n=int(input())
+m=int(input())
+if 2<=n<=1000 and 2<=m<=1000:
+     print(n+m)
