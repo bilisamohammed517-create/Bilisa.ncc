@@ -1,0 +1,5 @@
+k,s=map(int,input().split())
+if s%k==0:
+    print(s//k)
+else:
+    print(s%k+s//k)    
