@@ -1,0 +1,12 @@
+w=input()
+up=[]
+lw=[]
+for i in w:
+    if i in"abcdefghijklmnopqrstuvwxyz":
+        lw.append(i)
+    else:
+        up.append(i)  
+if len(up)>len(lw):
+    print(w.upper())
+else:
+    print(w.lower())
