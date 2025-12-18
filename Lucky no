@@ -1,0 +1,9 @@
+n=list(map(int,input()))
+f=[]
+for i in n:
+    if i==4 or i==7:
+        f.append(i)
+if len(f) ==4 or len(f)==7:
+    print("YES")
+else:
+    print("NO") 
