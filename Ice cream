@@ -1,0 +1,16 @@
+t,n=map(int,input().split())
+count=n
+left=0
+for i in range(t):
+    s,z=input().split()
+    if s=="+":
+        count+=int(z)
+        
+    elif s=="-":
+        if count>=int(z):
+            count-=int(z)
+        elif count<int(z):
+            left+=1    
+        
+print(count,left)        
+    
