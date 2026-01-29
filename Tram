@@ -1,0 +1,8 @@
+n=int(input())
+count=0
+l=[]
+for i in range (n):
+    a,b=map(int,input().split())
+    count+=b-a
+    l.append(count)
+print(max(l))   
