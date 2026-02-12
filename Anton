@@ -1,0 +1,15 @@
+n=int(input())
+l1=[]
+l2=[]
+s=input()
+for i in s:
+    if i=="A":
+        l1.append(i)
+    elif i=="D":
+        l2.append(i)
+if len(l1)>len(l2):
+    print("Anton")
+elif len(l2)>len(l1):
+    print("Danik")
+elif len(l1)==len(l2):
+    print("Friendship")
