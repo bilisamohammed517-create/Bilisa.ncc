@@ -1,0 +1,9 @@
+n,h=list(map(int,input().split()))
+f=list(map(int,input().split()))
+count=0
+for i in f:
+    if i<=h:
+        count+=1
+    elif i>h:
+        count+=2
+print(count)            
