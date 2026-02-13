@@ -1,0 +1,7 @@
+l=list(map(int,input().split()))
+s=input()
+ls=[]
+for i in s:
+    ls.append(l[int(i)-1])
+print(sum(ls))    
+                   
