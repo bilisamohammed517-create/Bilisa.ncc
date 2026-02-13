@@ -1,0 +1,9 @@
+s=input()
+l=[]
+for i in s:
+    l.append(i)
+x=len(set(l))
+if x%2==0:
+    print("CHAT WITH HER!")
+elif x%2!=0:
+    print("IGNORE HIM!")       
