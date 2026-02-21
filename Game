@@ -1,0 +1,12 @@
+n=int(input())
+l=[]
+count=0
+for i in range(n):
+    f=tuple(map(int,input().split()))
+    l.append(f)
+for i in range(len(l)):
+    for j in range(len(l)):
+        if l[i][0]==l[j][1]:
+            count+=1
+                
+print(count)    
