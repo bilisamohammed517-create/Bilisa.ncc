@@ -1,0 +1,8 @@
+a,b=list(map(int,input().split()))
+for i in range(1,11):
+    x=a*i
+    x=str(x)
+    if x[-1]==str(b) or x[-1]==str(0):
+        print(i)
+        break
+        
