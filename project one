@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      #profile-pic {
+        width: 150px;
+        height: 180px;
+        border-radius: 75px;
+        position: relative;
+        top: -20px;
+      }
+
+      #cat-link img {
+        width: 390px;
+        height: 320px;
+      }
+
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+      caption {
+        text-align: center;
+      }
+    </style>
+    <title>MY FIRST PROJECT</title>
+  </head>
+  <body style="background-color: cyan">
+    <header>
+      <h1>BILISA MOHAMMED</h1>
+      <img id="profile-pic" src="my image.jfif" alt="My Profile Photo" />
+      <br />
+      <br />
+      <a href="#more info"><b style="color: crimson">LINK FOR NEXT PAGE</b></a>
+      <hr />
+      <p>
+        Hi,I am <b>Bilisa</b>. I am a passionate student and aspring programmer
+        with a strong interest in problem solving and technology. I am currently
+        learning <b>c++</b> and <b>python</b>,along with data structures and
+        algorithms such as arrays,strings,and efficient techniques. I also enjoy
+        exploring <b>web development</b> and building simple,useful projects
+        using <i>HTML</i>. I am always eager to improve my skills and grow as a
+        developer
+      </p>
+    </header>
+    <iframe
+      width="400"
+      height="250"
+      src="https://www.youtube.com/embed/pQN-pnXPaVg?si=TpTXIES59G8lLa3G"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h2>
+      IF YOU WANT TO VISIT CAT WEBSITE
+      <i style="color: crimson">CLICK THE NEXT IMAGE</i>
+    </h2>
+    <a id="cat-link" href="https://cfa.org/" target="_blank">
+      <img src="cat.webp" alt="Click to visit Cat Website"
+    /></a>
+    <p><b>IF YOU WANT TO VISIT W3SCHOOLS</b></p>
+    <a href="https://www.w3schools.com" target="_blank"
+      ><b style="color: crimson">CLICK HERE</b></a
+    >
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
+    <h2 id="more info" style="color: crimson">more info about me</h2>
+    <ul>
+      <li><b>MY SKILLS</b></li>
+      <ul>
+        <li>Programming: c++ and python</li>
+        <li>
+          Data Structure and Algorithms:Arrays,Strings,Sets,Dictionaries and the
+          like.
+        </li>
+      </ul>
+      <li><b>MY HOBBIES</b></li>
+      <ul>
+        <li>Coding small projects</li>
+        <li>Learning new technologies</li>
+        <li>Solving coding challenges</li>
+      </ul>
+      <li><b>MY INTERESTS</b></li>
+      <ul>
+        <li>Web Development and Design</li>
+        <li>Software Development</li>
+        <li>Competitive Programming</li>
+      </ul>
+    </ul>
+    <ul>
+      <li><b>COURSES I AM TAKING</b></li>
+      <ol>
+        <li>Programming Languages</li>
+        <ol type="a">
+          <li>Python</li>
+          <li>C++</li>
+        </ol>
+        <li>WEB DEVELOPMENT</li>
+        <ol type="a">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ol>
+      </ol>
+    </ul>
+    <table border="1">
+      <caption>
+        <h2>Education Table</h2>
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th colspan="2">Semester</th>
+          <th colspan="2">Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Applied</td>
+          <td>I</td>
+          <td colspan="2">A</td>
+        </tr>
+        <tr>
+          <td>Python/C++</td>
+          <td>I</td>
+          <td colspan="2">A</td>
+        </tr>
+        <tr>
+          <td>Physics/TD</td>
+          <td>I</td>
+          <td colspan="2">A</td>
+        </tr>
+        <tr>
+          <td>Logic/Civic</td>
+          <td>I</td>
+          <td colspan="2">A</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Contact Me</h2>
+    <form>
+      <p><b>FULL NAME :</b></p>
+      <input type="text" value="Enter your name" required />
+      <br />
+      <p><b>EMAIL ADDRESS :</b></p>
+      <input type="email" value="Enter your email" required />
+      <br />
+      <p><b>MESSAGE :</b></p>
+      <textarea rows="8" cols="50" required>Write your message...</textarea>
+      <br />
+      <button type="submit">send message</button>
+    </form>
+  </body>
+</html>
