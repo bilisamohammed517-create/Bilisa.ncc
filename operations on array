@@ -1,0 +1,22 @@
+class Solution:
+    def applyOperations(self, nums: List[int]) -> List[int]:
+        a=0
+        b=1
+        while b<len(nums):
+            if nums[a]==nums[b]:
+                nums[a]=nums[a]*2
+                nums[b]=0
+                a+=2
+                b+=2
+            else:
+                a+=1
+                b+=1
+        x=nums.count(0) 
+        l=[]       
+        for i in (nums):
+            if i!=0:
+                l.append(i)
+        l=l+[0]*x
+        return l   
+
+                   
