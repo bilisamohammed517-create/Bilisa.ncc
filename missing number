@@ -1,0 +1,9 @@
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+      
+      nums=set(nums)
+      set2=set()
+      for i in range(len(nums)+1):
+        set2.add(i) 
+      lis=list(set2.symmetric_difference(nums))
+      return lis[0] 
