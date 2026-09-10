@@ -1,0 +1,9 @@
+s=input()
+result=""
+for i in s:
+    if i in "a,e,i,o,u,A,E,I,O,U,y,Y":
+        continue
+    else:
+        result+="."
+        result+=i.lower()
+print(result)        
