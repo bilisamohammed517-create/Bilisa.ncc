@@ -1,0 +1,11 @@
+n=int(input())
+lis=list(map(int,input().split()))
+val=1
+maxx=1
+for i in range(1,n):
+    if lis[i-1]<=lis[i]:
+        val+=1
+        maxx=max(maxx,val)
+    else:
+        val=1
+print(maxx)     
