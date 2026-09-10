@@ -1,0 +1,10 @@
+n=int(input())
+lis=list(map(int,input().split()))
+lis.sort(reverse=True)
+sm=sum(lis)
+val=0
+for i in range(len(lis)):
+    val+=lis[i]
+    if val>sm//2:
+        print(i+1)
+        break
